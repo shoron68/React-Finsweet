@@ -7,7 +7,7 @@ const Priceplan = () => {
     <div className="pricing_main">
         <Container>
             <Row className="justify-content-center">
-                <Col lg={6}>
+                <Col lg={6} xs={12} sm={12} md={12}>
                 <div class="prc_head text-center">
                         <h2>Our Pricing Plans</h2>
                         <p>When you’re ready to go beyond prototyping in Figma, Webflow is ready to help you bring your designs to life — without coding them.</p>
@@ -15,7 +15,7 @@ const Priceplan = () => {
                 </Col>
             </Row>
             <Row className="justify-content-center">
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="plans_body">
                         <div class="price_body ">
                             <h2>$299 <span>Per Design</span></h2>
@@ -36,7 +36,7 @@ const Priceplan = () => {
                         </div>
                     </div> 
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="plans_body2">
                         <div class="price_body2">
                             <h2>$399 <span>Multi Design</span></h2>
@@ -57,7 +57,7 @@ const Priceplan = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="plans_body">
                         <div class="price_body">
                             <h2>$499 + <span>Per Design</span></h2>

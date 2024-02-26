@@ -9,7 +9,7 @@ const About = () => {
     <div className="about_main">
       <Container>
         <Row>
-          <Col lg={5}>
+          <Col lg={5} xs={12} sm={12} md={12}>
           <div class="about_left">
               <h6>About us</h6>
               <h2>Our designs solve problems</h2>
@@ -17,7 +17,7 @@ const About = () => {
             </div>
           </Col>
           <Col lg={{span:5,offset:2}}>
-            <img src={img1} alt="" />
+            <img src={img1} className="w-100" alt="" />
           </Col>
         </Row>
       </Container>

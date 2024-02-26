@@ -7,33 +7,33 @@ const Contact = () => {
     <div className="contact_main">
         <Container>
             <Row>
-                <Col lg={6}>
-                <div class="startup_left">
-                  <div class="str_text">
+                <Col lg={6} className='p-0'>
+                <div className="startup_left">
+                  <div className="str_text">
                     <h3>Building stellar websites for early startups</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
                   </div>
                 </div>
                 </Col>
-                <Col lg={6}>
-                <div class="startup_right">
-                    <div class="signup">
+                <Col lg={6} className='p-0'>
+                <div className="startup_right">
+                    <div className="signup">
                         <h5>Send inquiry</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                         
                         <form>
-                            <div class="mb-3">
-                              <input type="text" class="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name"/>
+                            <div className="mb-3">
+                              <input type="text" className="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name"/>
                               
                             </div>
-                            <div class="mb-3">
-                                <input type="email" class="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email"/>
+                            <div className="mb-3">
+                                <input type="email" className="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email"/>
                             </div>
-                            <div class="mb-3">
-                                <input type="email" class="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Paste your Figma design URL"/>
+                            <div className="mb-3">
+                                <input type="email" className="control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Paste your Figma design URL"/>
                             </div>
                           </form>
-                          <button type="submit" class="btnn">Send an Inquiry</button>
+                          <button type="submit" className='btnnnnn'>Send an Inquiry</button>
                     </div>
                 </div>
                 </Col>

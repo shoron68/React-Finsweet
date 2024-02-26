@@ -1,0 +1,16 @@
+.study_main{
+    padding: 128px 0;
+}
+.body h2{
+    font-size:48px !important;
+    line-height: 64px !important;
+    font-weight: 500 !important;
+    color: #222;
+    padding-bottom: 50px;
+}
+.btmm p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    color: #222;
+    padding-top: 60px !important;
+}

@@ -6,17 +6,17 @@ import blogimg from "../../assets/blog.png"
 const Blog = () => {
   return (
     <>
-    <div className="blog_main">
+    <div className="blog_main2">
         <Container>
             <Row>
-                <Col lg={12}>
+                <Col lg={12} xs={12} sm={12} md={12}>
                 <div class="blog_up">
                     <h2>Our blog</h2>
                 </div>
                 </Col>
             </Row>
-            <Row>
-                <Col lg={4}>
+            <Row className="justify-content-center" >
+                <Col lg={4} xs={6} sm={6} md={4}>
                 <div class="blog_main">
                     <img src={blogimg} class="w-100" alt="blog"/>
                     <h6>19 Jan 2022</h6>
@@ -25,7 +25,7 @@ const Blog = () => {
                     <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={4}>
                 <div class="blog_main">
                     <img src={blogimg} class="w-100" alt="blog"/>
                     <h6>19 Jan 2022</h6>
@@ -34,7 +34,7 @@ const Blog = () => {
                     <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={4}>
                 <div class="blog_main">
                     <img src={blogimg} class="w-100" alt="blog"/>
                     <h6>19 Jan 2022</h6>

@@ -19,3 +19,33 @@
     line-height: 28px;
     color: #282938bd;
 }
+@media(max-width:575px){
+    .about_main {
+        padding: 17px 0;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .about_main {
+        padding: 17px 0;
+    }
+    .clients_main { 
+        padding: 50px 0;
+    }
+    .client_left h4 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 58px;
+        color: #282938;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .clients_main { 
+        padding: 50px 0;
+    }
+    .client_left h4 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 58px;
+        color: #282938;
+    }
+}

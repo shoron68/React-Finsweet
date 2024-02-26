@@ -1,0 +1,70 @@
+.tabs{
+    padding: 50px;
+}
+.tabs a{
+    padding: 0 20px;
+    color: #222;
+    font-size: 18px;
+}
+.template_main{
+    padding: 30px 0;
+}
+.template_main h2{
+    font-size: 34px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    color: #222;
+}
+.template_main p{
+    font-size: 16px !important;
+    line-height: 27px !important;
+    font-weight: 400 !important;
+    color: #222;
+}
+.template_main a{
+    font-size: 16px !important;
+    line-height: 27px !important;
+    font-weight: 400 !important;
+    color: #222;
+}
+.template_main a:hover{
+    color: blue;
+}
+
+
+@media(max-width:575px){
+    .created_main {
+        padding: 27px 0;
+    }
+    .tabs {
+        padding: 20px;
+    }
+    .tabs a {
+        padding: 0px 9px;
+        font-size: 16px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .created_main {
+        padding: 27px 0;
+    }
+    .tabs {
+        padding: 20px;
+    }
+    .tabs a {
+        padding: 0px 9px;
+        font-size: 16px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .created_main {
+        padding: 27px 0;
+    }
+    .tabs {
+        padding: 20px;
+    }
+    .tabs a {
+        padding: 0px 9px;
+        font-size: 16px;
+    }
+}

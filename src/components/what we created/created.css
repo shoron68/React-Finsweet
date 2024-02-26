@@ -1,0 +1,25 @@
+.created_main{
+    padding: 40px 0;
+}
+.body h5{
+    font-size: 24px !important; 
+    color: #222;
+    line-height: 36px;
+    font-weight: 500 !important;
+}
+.body h2{
+    font-size: 54px !important; 
+    color: #222;
+    line-height: 36px;
+    font-weight: 600 !important;
+}
+.body p{
+    font-size: 16px !important; 
+    color: #222;
+    line-height: 28px;
+    font-weight: 400 !important;
+}
+
+.icons .i{
+    color: #222;
+}

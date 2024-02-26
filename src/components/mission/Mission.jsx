@@ -8,7 +8,7 @@ const Mission = () => {
     <div className="mission_main">
         <Container>
             <Row>
-                <Col lg={6}>
+                <Col lg={6} xs={12} sm={12} md={12 }>
                 <div class="mis_up_left">
                     <h6>Our Mission </h6>
                     <h4>Inspire, Innovate, Share</h4>
@@ -16,12 +16,12 @@ const Mission = () => {
                 </div>
                 </Col>
                 <Col lg={{span:5,offset:1}}>
-                    <img src={img1} alt="" />
+                    <img src={img1} className='w-100' alt="" />
                 </Col>
             </Row>
             <Row>
-                <Col lg={5} >
-                <img src={img1} alt="" />
+                <Col lg={5} xs={12} sm={12} md={12 } >
+                <img src={img1} className='w-100' alt="" />
                 </Col>
                 <Col lg={{span:6,offset:1}} >
                     <div class="mis_up_left">

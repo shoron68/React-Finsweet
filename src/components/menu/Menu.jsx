@@ -2,6 +2,7 @@ import "./menu.css"
 import logo from "../../assets/Logo.png"
 import {Navbar,Container,Nav} from "react-bootstrap"
 import { MdMenuOpen } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 
 const Menu = () => {
@@ -10,20 +11,24 @@ const Menu = () => {
     <div className="nav_main">
      <Navbar expand="lg" >
     <Container>
-      <Navbar.Brand href="#home"><img src={logo} alt="" /></Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Brand href="#home"><Link to="/"><img src={logo} alt="" /></Link></Navbar.Brand>
+      <Navbar.Toggle className="menu_toggle" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">About us</Nav.Link>
-          <Nav.Link href="#link">Features</Nav.Link>
-          <Nav.Link href="#link">Pricing</Nav.Link>
-          <Nav.Link href="#link">FAQ</Nav.Link>
-          <Nav.Link href="#link">Blog</Nav.Link>
-        </Nav>
-        <div className="cont_btn">
-            <a href="#">Contact us</a>
+          <Link to="/">Home</Link>
+          <Link to="/aboutus"> About us</Link>
+          <Link to="/clients">Features</Link>
+          <Link to="/pricing">Pricing</Link>
+          <Link to="/studies">FAQ</Link>
+          <Link to="/blogpage">Blog</Link>
+          <Link to="/clients">Clients</Link>
+          <Link to="/privecypolicy">Privecypolicy</Link>
+          <Link to="/api">API</Link>
+          <div className="cont_btn">
+            <Link to="/contact">Contact</Link>
         </div>
+        </Nav>
+        
       </Navbar.Collapse>
     </Container>
   </Navbar>

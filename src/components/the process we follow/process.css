@@ -39,3 +39,30 @@
     line-height: 28px;
     color: #282938bd;
 }
+@media (max-width:575px){
+    .process_main {
+        padding: 41px 0;
+    }
+    .bdr_style {
+        left: 40px;
+        width: 122px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .process_main {
+        padding: 41px 0;
+    }
+    .bdr_style {
+        left: 40px;
+        width: 122px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .process_main {
+        padding: 41px 0;
+    }
+    .bdr_style {
+        left: 40px;
+        width: 122px;
+    }
+}

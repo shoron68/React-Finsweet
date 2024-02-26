@@ -41,12 +41,53 @@
 
 
 @media(max-width:575px){
-
-    .bnr_left{
-        margin-top: -76px;
+    .banner_main {
+        padding: 57px 0;
     }
-    .bnr_right img {
-        width: 97%;
-        margin-top: 73px;
+    .bnr_right {
+        padding-top: 69px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .cont_btn a{
+        text-align: center;
+    }
+    .bnr_btn a {
+    padding: 14px 28px;  
+    }
+}
+@media (min-width:576px)and (max-width:767px){
+    .banner_main {
+        padding: 57px 0;
+    }
+    .bnr_right {
+        padding-top: 69px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .cont_btn a{
+        text-align: center;
+    }
+    .bnr_btn a {
+    padding: 14px 28px;  
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .banner_main {
+        padding: 57px 0;
+    }
+    .bnr_right {
+        padding-top: 69px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .cont_btn a{
+        text-align: center;
+    }
+    .bnr_btn a {
+        padding: 19px 47px;
     }
 }

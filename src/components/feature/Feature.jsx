@@ -7,9 +7,9 @@ const Feature = () => {
     <>
     <div className="feature_main">
         <Container>
-            <Row>
-                <Col lg={12}>
-                <div className="ccen">
+            <Row className="justify-content-center">
+                <Col lg={6} xs={12} sm={12} md={12} >
+                <div className="ccen ">
                 <div class="feature_head">
                     <h6>Features</h6>
                     <h2>Design that solves problems, one product at a time</h2>
@@ -18,7 +18,7 @@ const Feature = () => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />
@@ -27,7 +27,7 @@ const Feature = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />
@@ -36,7 +36,7 @@ const Feature = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />
@@ -45,7 +45,7 @@ const Feature = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />
@@ -54,7 +54,7 @@ const Feature = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />
@@ -63,7 +63,7 @@ const Feature = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4}>
+                <Col lg={4} xs={6} sm={6} md={6}>
                 <div class="content_box">
                     <div class="main">
                         <img src={icon} alt="" />

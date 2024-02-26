@@ -7,7 +7,6 @@
 .startup_left{
     background: url(../../assets/contactbg.png) no-repeat center / cover;
     max-height: 691px;
-    margin-right: -12px;
 }
 .str_text{
     padding-left: 91px;
@@ -15,7 +14,7 @@
     width: 85%;
 }
 .str_text h3{
-    font-size: 54px;
+    font-size: 54px !important;
     line-height: 74px;
     font-weight: 600;
     color: #fff;
@@ -32,7 +31,6 @@
 .startup_right{
     background-color:#1C1E53 ;
     max-height: 691px;
-    margin-left: -12px;
 }
 .signup{
     padding-left: 91px;
@@ -79,7 +77,7 @@
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-.signup .btnn{
+.signup .btnnnnn{
     display: flex;
     padding:16px 35%;
     width: 100%;
@@ -97,7 +95,77 @@
     -ms-transition: .2s;
     -o-transition: .2s;
 }
-.signup .btnn:hover{
+.signup .btnnnnn:hover{
     background-color: #FCD980;
     color: #282938;
+}
+
+
+@media(max-width:575px){
+    .contact_main {
+        padding: 58px 0;
+    }
+    .startup_left {
+        min-height: 512px;
+    }
+    .str_text h3 {
+        font-size: 59px;
+        line-height: 47px;
+    }
+    .startup_right {
+        min-height: 661px;
+    }
+    .signup {
+        padding-top: 57px;
+    }
+    .signup .btnnnnn {
+        padding: 18px 33%;
+}
+}
+@media(min-width:576px) and (max-width:767px){
+    .contact_main {
+        padding: 58px 0;
+    }
+    .startup_left {
+        min-height: 512px;
+    }
+    .str_text h3 {
+        font-size: 59px;
+        line-height: 47px;
+    }
+    .startup_right {
+        min-height: 661px;
+    }
+    .signup {
+        padding-top: 57px;
+    }
+    .signup .btnnnnn {
+        padding: 18px 33%;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+    .contact_main {
+        padding: 58px 0;
+    }
+    
+    .startup_left {
+        min-height: 512px;
+    }
+    .str_text h3 {
+        font-size: 43px !important;
+        line-height: 47px;
+    }
+    .str_text p {
+        font-size: 16px;
+        padding-top: 40px;
+    }
+    .startup_right {
+        min-height: 661px;
+    }
+    .signup {
+        padding-top: 57px;
+    }
+    .signup .btnnnnn {
+        padding: 19px 39%;
+    }
 }

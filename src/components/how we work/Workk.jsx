@@ -13,7 +13,7 @@ const Workk = () => {
     <div className="work_main">
         <Container>
             <Row>
-                <Col lg={4} col={6} sm={6} md={6}>
+                <Col lg={4} xs={12} sm={12} md={6}>
                     <div class="work_left">
                         <h2>How we work</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -22,28 +22,28 @@ const Workk = () => {
                 </Col>
                     <Col lg={{span:6,offset:2}}>
                     <Row>
-                        <Col lg={6} col={6} sm={6} md={6}>
+                        <Col lg={6} xs={6} sm={6} md={6}>
                         <div class="work_right">
                             <img src={pointer1} alt="" />
                             <h3>Strategy</h3>
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
                         </div>
                         </Col>
-                        <Col lg={6} col={6} sm={6} md={6}>
+                        <Col lg={6} xs={6} sm={6} md={6}>
                         <div class="work_right">
                             <img src={pointer2} alt="" />
                             <h3>Strategy</h3>
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
                         </div>
                         </Col>
-                        <Col lg={6} col={6} sm={6} md={6}>
+                        <Col lg={6} xs={6} sm={6} md={6}>
                         <div class="work_right">
                             <img src={pointer3} alt="" />
                             <h3>Strategy</h3>
                             <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
                         </div>
                         </Col>
-                        <Col lg={6} col={6} sm={6} md={6}>
+                        <Col lg={6} xs={6} sm={6} md={6}>
                         <div class="work_right">
                             <img src={pointer4} alt="" />
                             <h3>Strategy</h3>

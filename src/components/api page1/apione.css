@@ -1,0 +1,24 @@
+.porducts_main{
+    padding: 100px 0;
+  }
+  .infoo{
+   padding-bottom: 60px;
+  }
+  .apiimg{
+    height: 300px !important;
+  }
+  .apiimg img{
+   height: 100% !important;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+  }
+
+  .quantity{
+    display: flex;
+    justify-content: center;
+   height: 38px;
+   align-items: center;
+  }

@@ -9,9 +9,9 @@ const Who = () => {
     <div className="who_main">
         <Container>
             <Row>
-                <Col lg={6}>
+                <Col lg={6} xs={12} sm={12} md={12}>
                     <Row>
-                        <Col lg={4}>
+                        <Col lg={4} xs={6} sm={6} md={6}>
                             <div class="we_top">
                                 <h6>Who we are</h6>
                             </div>
@@ -31,8 +31,8 @@ const Who = () => {
                 </Col>
             </Row>
             <Row>
-                <Col lg={12}>
-                    <img src={img2} alt="" />
+                <Col lg={12} xs={12} sm={12} md={12}>
+                    <img src={img2} className='w-100' alt="" />
                 </Col>
             </Row>
         </Container>

@@ -13,7 +13,6 @@ const Aboutus = () => {
     <Process/>
     <Mission/>
     <Benifeits/>
-    
     </>
   )
 }

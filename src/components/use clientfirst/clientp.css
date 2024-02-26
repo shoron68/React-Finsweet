@@ -1,0 +1,136 @@
+
+.partone{
+    padding: 128px 0;
+}
+.partone h5{
+    font-size: 18px !important ;
+    font-weight: 500 !important;
+    color: #282938;
+}
+.partone h3{
+    font-size: 38px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    color: #282938;
+}
+.partone p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+    color: #282938;
+}
+
+
+.partwo{
+    padding: 128px 0;
+    background-color: #F4F6FC;
+}
+.partwo h5{
+    font-size: 18px !important ;
+    font-weight: 500 !important;
+    color: #282938;
+}
+.partwo h3{
+    font-size: 38px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    color: #282938;
+}
+.partwo p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+    color: #282938;
+}
+
+.partthree{
+    padding: 128px 0;
+}
+.partthree h5{
+    font-size: 18px !important ;
+    font-weight: 500 !important;
+    color: #282938;
+}
+.partthree h3{
+    font-size: 38px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    color: #282938;
+}
+.partthree p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+    color: #282938;
+}
+
+.parfour{
+    padding: 128px 0;
+    background-color: #fcd98023;
+}
+.parfour h5{
+    font-size: 18px !important ;
+    font-weight: 500 !important;
+    color: #282938;
+}
+.parfour h3{
+    font-size: 38px !important;
+    line-height: 56px !important;
+    font-weight: 600 !important;
+    color: #282938;
+}
+.parfour p{
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
+    color: #282938;
+}
+
+
+
+
+@media(max-width:575px){
+    .partone {
+        padding: 15px 0;
+    }
+    .partwo {
+        padding: 0px 0;
+    }
+    .partthree {
+        padding: 0px 0;
+    }
+    .parfour {
+        padding: 1px 0;
+        background-color: #fcd98023;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .partone {
+        padding: 15px 0;
+    }
+    .partwo {
+        padding: 0px 0;
+    }
+    .partthree {
+        padding: 0px 0;
+    }
+    .parfour {
+        padding: 1px 0;
+        background-color: #fcd98023;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .partone {
+        padding: 15px 0;
+    }
+    .partwo {
+        padding: 0px 0;
+    }
+    .partthree {
+        padding: 0px 0;
+    }
+    .parfour {
+        padding: 1px 0;
+        background-color: #fcd98023;
+    }
+}

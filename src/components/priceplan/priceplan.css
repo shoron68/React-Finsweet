@@ -3,17 +3,17 @@
 }
 
 .prc_head h2{
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 64px;
+    font-size: 48px !important;
+    font-weight: 600 !important;
+    line-height: 64px !important;
     color: #282938;
 }
 .prc_head p{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
     color: #2829388e;
-    padding-bottom:64px ;
+    padding-bottom:64px !important;
 }
 .plans_body{
     background-color:#F4F6FC ;
@@ -30,41 +30,41 @@
 }
 
 .price_body{
-    padding-top: 64px;
-    padding-left: 48px;
-    padding-right: 77px;
-    padding-bottom:62px ;  
+    padding-top: 64px !important;
+    padding-left: 48px !important;
+    padding-right: 77px !important;
+    padding-bottom:62px !important ;  
 }
 
 .price_body h2{
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 56px;
+    font-size: 38px !important;
+    font-weight: 600 !important;
+    line-height: 56px !important;
     color: #282938;
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 .price_body h2 span{
-    font-size: 16px;
-    font-weight: 300;
-    line-height:28px;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height:28px !important;
     color: #2405F2;
 }
 .price_body h3{
-    font-size: 24px;
-    font-weight: 400;
-    line-height:36px;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height:36px !important;
     color: #282938;
 }
 .price_body p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height:28px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height:28px !important; 
     color: #282938bb;
 }
 .price_dtl P{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
     color: #282938;
 }
 .price_dtl i{
@@ -74,11 +74,11 @@
     color:#0c0c0c5b ;
 }
 .btnn{
-    padding-top: 79px;
-    padding-bottom: 62px;
+    padding-top: 79px !important;
+    padding-bottom: 62px !important;
 }
 .btnn a{
-    padding: 16px 77px;
+    padding: 16px 77px !important;
     border: 2px solid #282938;
     color: #282938;
     border-radius: 40px;
@@ -106,52 +106,49 @@
     -o-border-radius:12px ;
 }
 .price_body2{
-    padding-top: 64px;
-    padding-left: 48px;
-    padding-right: 77px;
-    padding-bottom:62px ;
+    padding-top: 64px !important; 
+    padding-left: 48px !important;
+    padding-right: 77px !important;
+    padding-bottom:62px  !important;
     
 }
 .price_body2 h2{
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 56px;
+    font-size: 38px !important;
+    font-weight: 600 !important;
+    line-height: 56px !important;
     color: #FFF;
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 .price_body2 h2 span{
-    font-size: 16px;
-    font-weight: 300;
-    line-height:28px;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height:28px !important;
     color: #FCD980;
 }
 .price_body2 h3{
-    font-size: 24px;
-    font-weight: 400;
-    line-height:36px;
+    font-size: 24px !important;
+    font-weight: 400 !important;
+    line-height:36px !important;
     color: #FFF;
 }
 .price_body2 p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height:28px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height:28px !important;
     color: #ffffffce;
 }
 .price_dtl2 P{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 28px !important;
     color: #FFF;
 }
 .price_dtl2 i{
     color: #97DAAD;
 }
-.btn{
-    padding-top: 50px;
-    padding-bottom: 62px;
-}
+
 .btn a{
-    padding: 16px 77px;
+    padding: 16px 77px !important;
     border: 2px solid #FFF;
     color: #FFF;
     border-radius: 40px;
@@ -170,6 +167,103 @@
     color: #282938;
 }
 .btnnnn{
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding-top: 40px !important;
+    padding-bottom: 60px !important;
+}
+
+
+
+
+@media(max-width:575px){
+    .price_body {
+        padding-top: 18px;
+        padding-left: 18px;
+        padding-right: 13px;
+        padding-bottom: 0px;
+    }
+    .btnn a {
+        padding: 17px 46px;
+    }
+    .btnn {
+        padding-top: 42px;
+        padding-bottom: 60px;
+    }
+    .price_body2 {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 7px;
+        padding-bottom: 0px;
+    }
+    .price_body2 .btn a {
+        padding: 17px 47px;
+    }
+    .btnnnn {
+        padding-top: 11px;
+        padding-bottom: 51px;
+    }
+    .plans_body{
+        margin-bottom: 30px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .price_body {
+        padding-top: 18px;
+        padding-left: 18px;
+        padding-right: 13px;
+        padding-bottom: 0px;
+    }
+    .btnn a {
+        padding: 17px 46px;
+    }
+    .btnn {
+        padding-top: 42px;
+        padding-bottom: 60px;
+    }
+    .price_body2 {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 7px;
+        padding-bottom: 0px;
+    }
+    .price_body2 .btn a {
+        padding: 17px 47px;
+    }
+    .btnnnn {
+        padding-top: 11px;
+        padding-bottom: 51px;
+    }
+    .plans_body{
+        margin-bottom: 30px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .price_body {
+        padding-top: 18px;
+        padding-left: 18px;
+        padding-right: 13px;
+        padding-bottom: 0px;
+    }
+    .btnn a {
+        padding: 17px 46px;
+    }
+    .btnn {
+        padding-top: 42px;
+        padding-bottom: 60px;
+    }
+    .price_body2 {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 7px;
+        padding-bottom: 0px;
+    }
+    .price_body2 .btn a {
+        padding: 17px 47px;
+    }
+    .btnnnn {
+        padding-top: 11px;
+        padding-bottom: 51px;
+    }
+    .plans_body{
+        margin-bottom: 30px;
+    }
 }
