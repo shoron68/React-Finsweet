@@ -25,11 +25,22 @@
 }
 
 @media(max-width:575px){
+    .clients_main {
+        padding: 0px 0;
+    }
     .need_main {
         padding: 29px 0;
     }
     .right{
         padding-top: 80px;
+    }
+    .client_left h4 {
+        font-size: 35px !important;
+        line-height: 44px !important;
+    }
+    .client_right h3 {
+        font-size: 24px !important;
+        line-height: 37px !important;
     }
 }
 @media (min-width:576px) and (max-width:767px){

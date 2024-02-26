@@ -10,3 +10,11 @@
     color: #222;
     line-height: 28px;
 }
+
+
+@media(max-width:575px){
+    .body h2 {
+        font-size: 31px !important;
+
+    }
+}

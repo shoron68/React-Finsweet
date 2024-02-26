@@ -16,7 +16,7 @@ const Benifeits = () => {
                 </Col>
             </Row>
             <Row className="justify-content-center">
-                <Col lg={4} xs={6} sm={6} md={6}>
+                <Col lg={4} xs={12} sm={6} md={6}>
                 <div class="content_box">
                     <div class="content_inner">
                         <img src={icon} alt=""/>
@@ -25,7 +25,7 @@ const Benifeits = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4} xs={6} sm={6} md={6}>
+                <Col lg={4} xs={12} sm={6} md={6}>
                 <div class="content_box">
                     <div class="content_inner">
                         <img src={icon} alt=""/>
@@ -34,7 +34,7 @@ const Benifeits = () => {
                     </div>
                 </div>
                 </Col>
-                <Col lg={4} xs={6} sm={6} md={6}>
+                <Col lg={4} xs={12} sm={6} md={6}>
                 <div class="content_box">
                     <div class="content_inner">
                         <img src={icon} alt=""/>

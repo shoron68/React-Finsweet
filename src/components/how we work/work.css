@@ -3,26 +3,26 @@
     background-color: #F4F6FC;
 }
 .work_left h2{
-    font-size: 48px;
-    line-height: 64px;
-    font-weight: 600;
+    font-size: 48px !important;
+    line-height: 64px  !important;
+    font-weight: 600  !important;
     color: #282938;
-    padding-bottom: 16px;
+    padding-bottom: 16px  !important;
 }
 .work_left{
-    padding-bottom: 10px;
+    padding-bottom: 10px  !important; 
 }
 .work_left p{
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
+    font-size: 16px  !important;
+    line-height: 28px  !important;
+    font-weight: 400  !important;
     color: #282938;
-    padding-bottom: 16px;
+    padding-bottom: 16px  !important;
 }
 .work_left a{
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 28px !important;
+    font-weight: 400 !important;
     color: #282938;
     transition: .3s;
     -webkit-transition: .3s;
@@ -36,17 +36,17 @@
 }
 
 .work_right h3 {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 32px  !important;
+    line-height: 48px  !important;
     color: #282938;
-    font-weight: 600;
-    padding: 16px 0;
+    font-weight: 600 !important;
+    padding: 16px 0  !important;
 }
 .work_right p {
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 16px  !important;
+    line-height: 28px  !important;
     color: #282938;
-    font-weight: 400;
+    font-weight: 400  !important;
 }
 
 
@@ -54,11 +54,26 @@
 
 @media(max-width:575px){
     .work_main {
-        padding: 78px 0;
+        padding: 20px 0;
     }
     .work_right{
         width: 90%;
          padding-top: 28px;
+    }
+    .work_left h2 {
+        font-size: 40px !important;
+        line-height: 35px !important;
+        padding-bottom: 4px !important;
+    }
+    .work_right h3 {
+        font-size: 28px !important;
+        line-height: 35px !important;
+        padding: 0px 0 !important;
+    }
+    .work_right p {
+        font-size: 16px !important;
+        line-height: 20px !important;
+        padding: 7px 0;
     }
 }
 @media (min-width:576px)and (max-width:767px){

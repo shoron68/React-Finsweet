@@ -37,12 +37,23 @@
 
 
 @media(max-width:575px){
+    .upper h2 {
+        font-size: 38px !important;
+    }
+    .upper p {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
     .main {
         padding: 74px 0;
     }
-    .section1 h3, .section2 h3 {
-        font-size: 42px !important;
-        line-height: 56px !important;
+    .section1 h3 {
+        font-size: 28px !important;
+        line-height: 33px !important;
+    }
+    .section2 h3{
+        font-size: 28px !important;
+        line-height: 33px !important;
     }
     .section1 p, .section2 p {
         line-height: 27px !important;

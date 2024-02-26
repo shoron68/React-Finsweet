@@ -7,7 +7,7 @@ const Projectt = () => {
     <div className="main">
         <Container>
             <Row>
-                <Col lg={{span:8, offset:2}}>
+                <Col lg={{span:8, offset:2}} xs={12} sm={12} md={12}>
                     <div className="body">
                     <h2>About the project</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -21,7 +21,7 @@ const Projectt = () => {
                     </div>
 
                 </Col>
-                <Col lg={{span:8, offset:2}}>
+                <Col lg={{span:8, offset:2}} xs={12} sm={12} md={12}>
                     <div className="body">
                     <h2>How we do it</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

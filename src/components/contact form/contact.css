@@ -108,18 +108,25 @@
     .startup_left {
         min-height: 512px;
     }
+    .str_text {
+        padding-left: 47px;
+        padding-top: 38px;
+        width: 100%;
+    }
     .str_text h3 {
-        font-size: 59px;
+        font-size: 44px;
         line-height: 47px;
     }
     .startup_right {
         min-height: 661px;
     }
     .signup {
-        padding-top: 57px;
+        padding-top: 36px;
+        padding-left: 32px;
+        width: 90%;
     }
     .signup .btnnnnn {
-        padding: 18px 33%;
+        padding: 15px 31%;
 }
 }
 @media(min-width:576px) and (max-width:767px){

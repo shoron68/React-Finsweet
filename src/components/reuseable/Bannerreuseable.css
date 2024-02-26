@@ -42,7 +42,7 @@
 
 @media(max-width:575px){
     .banner_main {
-        padding: 57px 0;
+        padding: 27px 0;
     }
     .bnr_right {
         padding-top: 69px;
@@ -54,7 +54,14 @@
         text-align: center;
     }
     .bnr_btn a {
-    padding: 14px 28px;  
+        padding: 14px 19px;
+    }
+    .bnr_left h1 {
+        font-size: 29px;
+        line-height: 51px;
+    }
+    body p {
+        padding: 6px 0;
     }
 }
 @media (min-width:576px)and (max-width:767px){

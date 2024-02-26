@@ -9,12 +9,12 @@ const Study = () => {
     <div className="study_main">
         <Container>
             <Row className='justify-content-center'>
-                <Col lg={10}>
-                <div className="body text-center">
+                <Col lg={10} xs={12} sm={12} md={12}>
+                <div className="bodyyy text-center">
                     <h2>A UX Case Study on Creating a Studious Environment for Students</h2>
                 </div>
                 </Col>
-                <Col lg={12}>
+                <Col lg={12} xs={12} sm={12} md={12}>
                     <img src={img} className='w-100' alt="" />
                 </Col>
                 <Col lg={8}>

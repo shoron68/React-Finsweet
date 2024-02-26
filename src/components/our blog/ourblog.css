@@ -22,28 +22,29 @@
 }
 
 @media(max-width:575px){
-    .study_main {
-        padding: 58px 0;
+    .blogg_mainn {
+        padding: 0px 0 !important;
     }
-    .inn h2 {
-        font-size: 38px !important;
-        line-height: 56px !important;
+    .headerr h3 {
+        font-size: 40px !important;
+        line-height: 58px !important;
     }
-    .btmm p {
-        padding-top: 19px !important;
+    .content_section .inn img {
+        padding-bottom: 1px !important;
     }
-    .blog_mainn {
-        padding: 20px 0;
+    .content_section .inn h6 {
+        font-size: 18px !important;
+        line-height: 31px !important;
     }
-    .body3 h4 {
-        font-size: 20px !important;
-        line-height: 30px !important;
-        font-weight: 400 !important;
+    body p {
+        font-size: 16px !important;
+        line-height: 25px !important;
+        padding: 0px 0;
     }
 }
 @media (min-width:576px) and (max-width:767px){
-    .study_main {
-        padding: 58px 0;
+    .blogg_mainn {
+        padding: 0px 0 !important;
     }
     .body h2 {
         font-size: 38px !important;

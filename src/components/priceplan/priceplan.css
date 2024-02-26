@@ -175,24 +175,29 @@
 
 
 @media(max-width:575px){
-    .price_body {
-        padding-top: 18px;
-        padding-left: 18px;
-        padding-right: 13px;
-        padding-bottom: 0px;
+    .body p{
+        padding: 2px 0 !important;
+    }
+    .pricing_main {
+        padding: 10px 0;
+    }
+    .prc_head h2 {
+        font-size: 41px !important;
+        line-height: 52px !important;
+    }
+    .price_body ,
+    .price_body2 {
+        padding-top: 4px !important;
+        padding-left: 23px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
     }
     .btnn a {
         padding: 17px 46px;
     }
     .btnn {
-        padding-top: 42px;
-        padding-bottom: 60px;
-    }
-    .price_body2 {
-        padding-top: 15px;
-        padding-left: 20px;
-        padding-right: 7px;
-        padding-bottom: 0px;
+        padding-top: 19px !important;
+        padding-bottom: 49px !important;
     }
     .price_body2 .btn a {
         padding: 17px 47px;
@@ -203,6 +208,16 @@
     }
     .plans_body{
         margin-bottom: 30px;
+    }
+    .prc_head p {
+        font-size: 16px !important;
+        line-height: 22px !important;
+        padding-bottom: 13px !important;
+    }
+    .price_body h2 {
+        font-size: 35px !important;
+        line-height: 24px !important;
+        padding-bottom: 0px !important;
     }
 }
 @media(min-width:576px) and (max-width:767px){

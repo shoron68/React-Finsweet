@@ -44,8 +44,21 @@
         padding: 41px 0;
     }
     .bdr_style {
-        left: 40px;
-        width: 122px;
+        left: 25px;
+        width: 114px;
+    }
+    .prc_head h2 {
+        font-size: 34px !important;
+        line-height: 44px !important;
+    }
+    .prc_body h4 {
+        padding-top: 4px !important;
+        font-size: 20px !important;
+        line-height: 21px !important;
+    }
+    .circle {
+        height: 20px;
+        width: 20px;
     }
 }
 @media (min-width:576px) and (max-width:767px){

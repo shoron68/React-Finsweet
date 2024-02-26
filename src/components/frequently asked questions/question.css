@@ -25,8 +25,18 @@ span{
     --bs-accordion-active-bg: none !important;
 }
 @media(max-width:575px){
-    .faq_mainn{
-        padding-top: 54px;
+    .question_main {
+        padding: 55px 0 !important;
+    }
+    .accordion-button {
+        padding: 5px 5px !important;
+    }
+    .faq_mainn h5{
+        font-size: 16px !important;
+    }
+    .faq_mainn span{
+        font-size: 16px !important;
+        margin-right: -3px !important;
     }
 }
 @media(min-width:576px) and (max-width:767px){

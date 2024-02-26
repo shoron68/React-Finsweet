@@ -49,6 +49,10 @@
     .mission_main {
         padding: 42px 0;
     }
+    .mis_up_left h4 {
+        font-size: 32px;
+        line-height: 51px;
+    }
     .w-100 {
         padding-bottom: 30px;
     }

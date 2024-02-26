@@ -8,7 +8,7 @@ const Design = () => {
     <div className="design_main">
         <Container>
             <Row>
-                <Col lg={{span:8, offset:1}}>
+                <Col lg={{span:8, offset:1}} xs={12} sm={12} md={12}>
                   <div className="body">
                   <h5>Web design and development</h5>
                     <h2>Finsweet Design case studies</h2>

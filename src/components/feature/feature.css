@@ -56,11 +56,20 @@
         padding: 60px 0 ;
     }
     .feature_head h2 {
-        font-size: 36px;
-        padding-bottom: 17px;
+        font-size: 26px !important;
+        line-height: 47px !important;
+        padding-bottom: 0px !important;
     }
     .main {
         padding: 20px;
+    }
+    .main h2 {
+        font-size: 20px !important;
+        line-height: 0px !important;
+    }
+    .main p {
+        font-size: 14px !important;
+        line-height: 19px !important;
     }
     .content_box {
         padding-top: 3px !important;

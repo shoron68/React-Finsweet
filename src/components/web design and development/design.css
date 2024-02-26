@@ -32,13 +32,18 @@
 
 
 @media(max-width:575px){
+    .body {
+        padding: 10px !important;
+    }
     .design_main {
-        padding: 63px 0;
+        padding: 15px 0 !important;
     }
     .body h2 {
-        font-size: 44px !important;
-        width: 100%;
+        font-size: 35px !important;
+        line-height: 48px !important;
+
     }
+    
 }
 @media (min-width:576px) and (max-width:767px){
     .design_main {
